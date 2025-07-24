@@ -1,10 +1,5 @@
 
 function cluster_max_p = max_sat_each(max_need_vector, cluster_id)
-
-% Copyright (C) 2020-2024 Xuhaosheng
-% All rights reserved.
-% 17074845g@connect.polyu.hk
-
     % Find unique cluster IDs and their indices
     [C, ~, IC] = unique(cluster_id, 'stable');
     
